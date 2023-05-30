@@ -1,10 +1,10 @@
 ![Cambios climáticos extremos](https://raw.githubusercontent.com/dmtor/Datos_climaticos_extremos/main/Titulo_clima.jpg)
 
-Este proyecto de Análisis Exploratorio de Datos (EDA) se desarrolló como parte de mi formación en la escuela The Bridge. Se enfoca en el estudio de eventos climáticos extremos en España. Mediante el análisis de variables como temperatura, precipitación y viento, se busca identificar patrones, tendencias y la frecuencia de estos eventos. El objetivo es comprender mejor el comportamiento climático y sus implicaciones en el contexto español.
+Este proyecto de Análisis Exploratorio de Datos (EDA) se desarrolló como parte de mi formación en la escuela The Bridge. Se enfoca en el estudio de eventos climáticos extremos en España. Mediante el análisis de variables como temperatura, precipitación y viento, se busca identificar patrones, tendencias y la frecuencia de estos eventos. El objetivo es comprender mejor el comportamiento climático y sus implicaciones.
 
 ## Obtención de los datos
 
-Mis datos los he obtenido en la web [https://datosclima.es/Aemet2013/DescargaDatos.html](https://datosclima.es/Aemet2013/DescargaDatos.html). Constaban de 3.277 archivos xls. Estos archivos son los que directamente proporciona Aemet en sus resúmenes diarios, los cuales son de acceso público.
+Mis datos los he obtenido en la web [https://datosclima.es/Aemet2013/DescargaDatos.html](https://datosclima.es/Aemet2013/DescargaDatos.html). Constaban de 3.277 archivos xls. Estos archivos son los que directamente proporciona Aemet en sus resúmenes diarios, los cuales son de acceso público. De un total de 820 estaciones del periodo 2014-2022.
 
 Para gestionar estos datos, existe un gran problema, ya que no tienen ID de referencia y los nombres de las estaciones cambian a lo largo del periodo, lo que dificulta su identificación. Por ejemplo, utilicé la API de Aemet para obtener un listado con todas las estaciones disponibles, su ID, latitud, longitud y altitud. Incluso en este listado, los nombres también varían en comparación con los ofrecidos en la web de Aemet. Por ejemplo, "Tarragona Fac Geografía" es simplemente "Tarragona".
 
